@@ -1,5 +1,5 @@
 import InfoBox from "../../components/InfoBox"
-import Input1 from "../../components/Input1"
+import Input from "../../components/Input"
 import Logo from "../../components/Logo"
 import {useAuth, userData} from "../../providers/auth"
 import {LoginContainer, MainLoginContainer} from "./style"
@@ -48,7 +48,7 @@ const Login = () => {
                     >
                         <div className="inputsContainer">
                             <div className="inputContainer">
-                                <Input1
+                                <Input
                                     {...register("email")}
                                     type="text"
                                     placeholder="Email"
@@ -60,7 +60,7 @@ const Login = () => {
                             </div>
 
                             <div className="inputContainer">
-                                <Input1
+                                <Input
                                     {...register("password")}
                                     type="password"
                                     placeholder="Senha"
