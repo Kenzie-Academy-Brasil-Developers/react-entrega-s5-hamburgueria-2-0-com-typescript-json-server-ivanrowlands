@@ -1,7 +1,7 @@
 import axios from "axios"
 
 const api = axios.create({
-    baseURL: "https://json-hamburgueria-server.herokuapp.com",
+    baseURL: "https://json-hamburgueria-servers.herokuapp.com",
 })
 
 export default api
